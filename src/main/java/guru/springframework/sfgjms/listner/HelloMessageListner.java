@@ -22,6 +22,7 @@ public class HelloMessageListner {
 		
 		System.out.println(helloWorldMessage);
 		
+		//throw new RuntimeException("foo");
 	}
 
 }
