@@ -16,7 +16,7 @@ public class HelloSender {
 	
 	private final JmsTemplate jmsTemplate;
 	
-	@Scheduled
+	@Scheduled(fixedRate = 2000)
 	public void sendMessage() {
 		
 		System.out.println("I'm sending message !");
